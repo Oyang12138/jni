@@ -1,0 +1,26 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "MyDemos"
+include ':app'
+include ':mytest'
+include ':content'
+include ':content:test'
+include ':test'
+include ':fragmenttest'
+include ':mydialog'
+include ':accountname'
+include ':carseting'
+include ':switch'
+include ':hvac'
+include ':androidpicker'
+include ':numberpicker'
+include ':learnmk'
+include ':service'
+include ':learnjni'
+include ':nvtest'

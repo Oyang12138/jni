@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".TaskTest.Account_AccountName">
+
+    <!--    设定 string:account_text   id：title_txt -->
+    <!--    设定 string:head_name_text   id：headText -->
+    <!-- 账户设置 string:account_set    id   -->
+    <LinearLayout
+        android:id="@+id/system_icon_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/accountButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_search_24" />
+
+        <TextView
+            android:id="@+id/accountText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="设定"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/headiconButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_sports_baseball_24" />
+
+        <TextView
+            android:id="@+id/headText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="小雅小雅学习学习学习"
+            android:maxLines="1"
+            android:maxEms="2"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"/>
+
+    </LinearLayout>
+</LinearLayout>

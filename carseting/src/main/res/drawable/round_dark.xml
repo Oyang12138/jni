@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="5.0dip" />
+    <solid android:color="@color/button_back" />
+    <stroke
+        android:width="0.5dip"
+        android:color="@color/button_back" />
+    <corners android:radius="200dp" />
+
+</selector>

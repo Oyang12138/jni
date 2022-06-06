@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mydemos">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+<!--    振动器权限-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyDemos">
+        <activity
+            android:name=".vibratortest.VibratorTest"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Gesture.ScrollToClose"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Gesture.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.MyFrameLayout"
+            android:exported="true" />
+        <activity
+            android:name=".Database.Alert"
+            android:exported="false" />
+        <activity
+            android:name=".Database.DataBase"
+            android:exported="true" />
+        <activity
+            android:name=".TaskTest.Account_AccountName"
+            android:exported="true" />
+        <activity
+            android:name=".Handler.SendMessageToMainThread"
+            android:exported="true" />
+        <activity
+            android:name=".Handler.test"
+            android:exported="true" />
+        <activity
+            android:name=".Handler.HandlerInChildThread"
+            android:exported="true" />
+        <activity
+            android:name=".Handler.HandlerTest"
+            android:exported="true" />
+        <activity
+            android:name=".test.AsyncTask3"
+            android:exported="true" />
+        <activity
+            android:name=".test.AsyncTask2"
+            android:exported="true" />
+        <activity
+            android:name=".test.AsyncTaskTest"
+            android:exported="true" />
+        <activity
+            android:name=".test.SearchTest"
+            android:exported="false" />
+        <activity
+            android:name=".app.LoaderCursor"
+            android:exported="true" />
+        <activity
+            android:name=".Accessibility.SeekBarTest"
+            android:exported="true" />
+        <activity
+            android:name=".Accessibility.TaskListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Accessibility.System_setting"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".app.FragmentStack"
+            android:exported="false" />
+        <activity
+            android:name=".app.Tabs"
+            android:exported="false" />
+        <activity
+            android:name=".Main.AppMain"
+            android:exported="false" />
+        <activity
+            android:name=".Views.AutoComplete1"
+            android:exported="false" />
+        <activity
+            android:name=".Views.ScrollView"
+            android:exported="false" />
+        <activity
+            android:name=".Views.DateWidgets1"
+            android:exported="false" />
+        <activity
+            android:name=".Views.MyCountDownTimer"
+            android:exported="false"
+            android:label="Views/MycountDownTimer" />
+        <activity
+            android:name=".Views.MyChronometer"
+            android:exported="false"
+            android:label="MyDemos/Views/Chronometer" />
+        <activity
+            android:name=".Main.ViewsMain"
+            android:exported="false"
+            android:label="MyDemos/ViewMain" />
+        <activity
+            android:name=".Main.TextMain"
+            android:exported="false"
+            android:label="MyDemos/TextMain" />
+        <activity
+            android:name=".text.LogTextBox"
+            android:exported="true"
+            android:label="" />
+        <activity
+            android:name=".text.Link"
+            android:exported="true"
+            android:label="MyDemos/text/link" />
+        <activity
+            android:name=".animation.AnimationCloning"
+            android:exported="true" />
+        <activity
+            android:name=".MyApiDemo"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

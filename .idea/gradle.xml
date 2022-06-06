@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/accountname" />
+            <option value="$PROJECT_DIR$/androidpicker" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/carseting" />
+            <option value="$PROJECT_DIR$/content" />
+            <option value="$PROJECT_DIR$/content/test" />
+            <option value="$PROJECT_DIR$/fragmenttest" />
+            <option value="$PROJECT_DIR$/hvac" />
+            <option value="$PROJECT_DIR$/learnjni" />
+            <option value="$PROJECT_DIR$/learnmk" />
+            <option value="$PROJECT_DIR$/mydialog" />
+            <option value="$PROJECT_DIR$/mytest" />
+            <option value="$PROJECT_DIR$/numberpicker" />
+            <option value="$PROJECT_DIR$/nvtest" />
+            <option value="$PROJECT_DIR$/service" />
+            <option value="$PROJECT_DIR$/switch" />
+            <option value="$PROJECT_DIR$/test" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

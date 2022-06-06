@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="120px"
+        android:layout_margin="1dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon_dismiss"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_looks_one_24" />
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Title"
+            android:layout_centerInParent="true"
+            android:textColor="#ff000000"
+            android:textSize="42px" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/center_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="45px"
+        android:paddingEnd="45px">
+
+        <ImageView
+            android:id="@+id/dialog_button_first"
+            android:layout_width="240px"
+            android:layout_height="70px"
+            android:background="@drawable/ic_baseline_looks_one_24"
+            android:textColor="@drawable/ic_baseline_looks_one_24"
+            android:textSize="24px"
+            android:text="Save" />
+
+        <Space
+            android:id="@+id/space_of_center_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/dialog_button_second"
+            android:layout_width="240px"
+            android:layout_height="70px"
+            android:background="@drawable/ic_baseline_looks_one_24"
+            android:textSize="24px"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+</LinearLayout>

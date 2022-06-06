@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.TextMain"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <Button
+        android:id="@+id/linkify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44ffffff"
+        android:text="文本-链接"/>
+    <Button
+        android:id="@+id/logTextBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44ffffff"
+        android:text="Click Button Add Text in TextBox"/>
+    <Button
+        android:id="@+id/marquee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44ffffff"
+        android:text="选框"/>
+
+</LinearLayout>

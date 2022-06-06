@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="震动屏参数设置" />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="1dp"
+        android:background="#E0E0E0" />
+
+    <EditText
+        android:id="@+id/pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/strength"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="小牛"
+        android:layout_marginLeft="50dp"
+        android:textSize="40dp"
+
+        android:inputType="number" />
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/ic_baseline_highlight_24"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="保存" />
+<!--        [NV-5781][Vibrator]Add strength parameter[1/1]-->
+<!--        添加震动屏的参数的设置的列表项 Add a list item for setting the parameters of the vibration screen-->
+<!--        添加设置具体参数的页面 Add a dialog for setting specific parameters-->
+<!--        origin/TCC805x_Android10_IVI_v2.0.0_XN_dev-->
+
+<!--        添加震动屏参数设置  Add vibration screen parameter settings-->
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="取消" />
+        <Button
+            android:id="@+id/www"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="3"
+            android:text="qqw" />
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           />
+        <TextView
+            android:id="@+id/error_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:visibility="invisible"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

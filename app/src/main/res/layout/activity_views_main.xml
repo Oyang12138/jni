@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.ViewsMain"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44ffffff"
+        android:text="动画"/>
+    <Button
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44ffffff"
+        android:text="计时器"/>
+    <Button
+        android:id="@+id/countdowntimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44ffffff"
+        android:text="倒计时"/>
+    <Button
+        android:id="@+id/dataWidgets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44ffffff"
+        android:text="时间日期"/>
+    <Button
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44ffffff"
+        android:text="Scroll"/>
+
+
+
+
+</LinearLayout>
