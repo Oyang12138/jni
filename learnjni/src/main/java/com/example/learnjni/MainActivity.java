@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Switch aSwitch;
     private EditText editText;
-        HelloJNI helloJNI = new HelloJNI();
-//    MyTest myTest = new MyTest();
+    HelloJNI helloJNI = new HelloJNI();
+    MyTest myTest = new MyTest();
     ControlSwitch controlSwitch = new ControlSwitch();
     private Button btn;
     private TextView t1;
@@ -44,11 +44,12 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.btn);
         aSwitch = findViewById(R.id.sw1);
         editText = findViewById(R.id.ed1);
-        editText.setText(String.valueOf(controlSwitch.getSwitchStatus()));
+//        editText.setText(String.valueOf(controlSwitch.getSwitchStatus()));
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(Integer.parseInt(editText.getText().toString()) ==1){
+                controlSwitch.setStatus(Integer.parseInt(editText.getText().toString()));
+                if(controlSwitch.getSwitchStatus() == 1){
                     aSwitch.setChecked(true);
                 }else{
                     aSwitch.setChecked(false);

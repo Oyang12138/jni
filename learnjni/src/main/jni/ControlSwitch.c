@@ -5,11 +5,11 @@ JNIEXPORT jint
 
 JNICALL Java_com_example_learnjni_ControlSwitch_getSwitchStatus
         (JNIEnv *env, jobject obj) {
-//    jclass jClass = (*env)->FindClass(env, "com/example/learnjni/ControlSwitch");
-//    //2.实例化
-//    jobject jObject = (*env)->AllocObject(env, jClass);
-//    //3.得到要调用的方法
-//    jmethodID jMethodId = (*env)->GetMethodID(env, jClass, "getStatus", " ()I");
-//    jint jInt = (*env)->CallIntMethod(env,jObject,jMethodId);
-    return 1;
+    //获取类
+    jclass jClass = (*env)->FindClass(env, "com/example/learnjni/ControlSwitch");
+    //获取方法ID
+    jmethodID methodID = (*env)->GetMethodID(env,jClass, "getStatus", "()I");
+   //3.得到要调用的方法
+    jint val = (*env)->CallIntMethod(env,obj, methodID);
+    return val;
 }
